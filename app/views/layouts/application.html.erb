@@ -23,10 +23,9 @@
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li class="<%= 'active' if current_page?(pages_info_url) %>"><%= link_to "Info", pages_info_url %></li>
         <li class="<%= 'active' if current_page?(ideas_url) %>"><%= link_to "Ideas", ideas_url %></li>
-        
-        
+        <li class="<%= 'active' if current_page?(pages_info_url) %>"><%= link_to "Info", pages_info_url %></li>
+        <li class="<%= 'active' if current_page?(pages_welcome_url) %>"><%= link_to "Welcome", pages_welcome_url %></li>
       </ul>
       
 <p class="navbar-text pull-right">

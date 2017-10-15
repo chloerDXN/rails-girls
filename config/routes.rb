@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'pages/welcome'
+
   devise_for :users
   get 'pages/info'
 
